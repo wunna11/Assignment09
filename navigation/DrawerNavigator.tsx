@@ -3,6 +3,7 @@ import * as React from 'react';
 import Home from '../screens/HomeScreen';
 import Favourite from '../screens/FavouriteScreen';
 import TabNavigator from './TabNavigator';
+import Register from '../screens/RegisterScreen';
 
 
 
@@ -13,6 +14,7 @@ export default function DrawerNavigator() {
     <Drawer.Navigator>
       <Drawer.Screen name='Home' component={TabNavigator} />
       <Drawer.Screen name='Favourite' component={Favourite} />
+      <Drawer.Screen name='Register' component={Register} />
     </Drawer.Navigator>
   )
 }
