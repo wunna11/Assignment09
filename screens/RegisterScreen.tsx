@@ -64,7 +64,7 @@ const Register = ({navigation}: {navigation: any}) => {
             };
           });
         }
-      }
+      } 
   
       if (!phone) {
         setError((prev) => {

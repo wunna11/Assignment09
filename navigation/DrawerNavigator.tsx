@@ -4,6 +4,7 @@ import Home from '../screens/HomeScreen';
 import Favourite from '../screens/FavouriteScreen';
 import TabNavigator from './TabNavigator';
 import Register from '../screens/RegisterScreen';
+import User from '../screens/UserScreen';
 
 
 
@@ -15,6 +16,7 @@ export default function DrawerNavigator() {
       <Drawer.Screen name='Home' component={TabNavigator} />
       <Drawer.Screen name='Favourite' component={Favourite} />
       <Drawer.Screen name='Register' component={Register} />
+      <Drawer.Screen name='User' component={User} />
     </Drawer.Navigator>
   )
 }
